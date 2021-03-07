@@ -7,26 +7,21 @@ int main() {
 	
 	string text;
 	cin >> text;
-	int max = 0;
+	int cnt = 1;
+	int max = 1;
 	int len = text.length();
-	int *p = new int [len];
-	for(int i = 0; i < len; i++) {
-		p[i] = 0;
-	}
-	for(int i = 0; i < len; i++) {
-		if(text[i] == text[i+1]) {
-			p[text[i] - 'A'] += 1;
-		} else if(i == len - 1) {
-			p[text[i] - 'A'] += 1;
+	for(int i = 0; i <= len; i++) {
+		if(text[i] == text[i - 1]) {
+			cnt++;
+		} else {
+			if(max < cnt) {
+				max = cnt;
+			}
+			cnt = 1;
 		}
 		
 	}
 	
-	for(int i = 0; i < len; i++) {
-		if(max < p[i]) {
-			max = p[i];
-		}
-	}
 	
 	cout << max << '\n';
 }
