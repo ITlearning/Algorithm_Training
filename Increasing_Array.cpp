@@ -23,3 +23,5 @@ int main() {
 	
 	cout << total << '\n';
 }
+
+//코딩중
