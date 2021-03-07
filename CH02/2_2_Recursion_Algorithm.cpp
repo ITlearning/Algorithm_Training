@@ -1,3 +1,5 @@
+// 재귀적 알고리즘 - 부분집합 구하기
+
 #include <bits/stdc++.h>
 using namespace std;
 
