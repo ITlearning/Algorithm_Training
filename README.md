@@ -8,6 +8,10 @@ C++을 이용한 알고리즘 트레이닝
 
 https://cses.fi/
 
+https://blog.encrypted.gg/ BaaaaaaaarkingDog님 블로그
+
+https://rkm0959.tistory.com/ rkm 님 블로그
+
 * * *
 
 2021.03.07 2_2 재귀적 알고리즘 - 부분집합 알고리즘 공부.
